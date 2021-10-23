@@ -1,8 +1,11 @@
+import React from 'react';
+import Banner from './components/Banner';
+
 function App() {
   return (
-    <main>
-      hey
-    </main>
+    <div>
+      <Banner />
+    </div>
   );
 }
 
