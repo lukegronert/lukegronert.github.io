@@ -6,19 +6,23 @@ export const skillSet = [
         items: [
             {
                 title: 'HTML',
-                logo: html
+                logo: ['fab', 'html5'],
             },
             {
                 title: 'CSS',
+                logo: ['fab', 'css3'],
             },
             {
                 title: 'Javascript',
+                logo: ['fab', 'js'],
             },
             {
                 title: 'React',
+                logo: ['fab', 'react'],
             },
             {
                 title: 'Boostrap',
+                logo: ['fab', 'bootstrap'],
             }
         ]
     },
@@ -27,12 +31,15 @@ export const skillSet = [
         items: [
             {
                 title: 'Semantic UI',
+                logo: ['fab', 'google'],
             },
             {
                 title: 'Gatsby',
+                logo: ['fab', 'google'],
             },
             {
                 title: 'Reactstrap',
+                logo: ['fab', 'google'],
             }
         ]
     },
@@ -41,12 +48,15 @@ export const skillSet = [
         items: [
             {
                 title: 'Redux',
+                logo: ['fab', 'css3'],
             },
             {
                 title: 'Node JS',
+                logo: ['fab', 'css3'],
             },
             {
-                title: 'GraphQL'
+                title: 'GraphQL',
+                logo: ['fab', 'css3'],
             }
         ]
     }
