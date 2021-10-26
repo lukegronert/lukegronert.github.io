@@ -2,6 +2,7 @@ import React from 'react';
 import Banner from './components/Banner';
 import Navigation from './components/Navigation';
 import About from './components/About';
+import Skills from './components/Skills';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Navigation />
       <Banner />
       <About />
+      <Skills />
     </div>
   );
 }

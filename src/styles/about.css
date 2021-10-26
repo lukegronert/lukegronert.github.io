@@ -11,47 +11,11 @@
 
 .about-content {
   display: flex;
-  width: 100%;
+  width: 70%;
   flex-direction: column;
-}
-
-.about-img {
-  height: 75vh;
-  overflow: hidden;
-  position: relative;
-  width: 90%;
-  margin: 0 auto;
-}
-
-.about-img img {
-  max-height: 75vh;
 }
 
 .about-description {
   max-width: 90%;
   margin: 0 auto;
-}
-
-/* =================================== */
-/* Desktop screen size */
-/* =================================== */
-
-@media screen and (min-width: 750px) {
-  .about-content {
-    flex-direction: row;
-    width: 100%;
-    justify-content: space-around;
-  }
-
-  .about-img {
-    width: 45%;
-  }
-
-  .about-img img {
-    max-height: 75vh;
-  }
-
-  .about-description {
-    max-width: 45%;
-  }
 }
