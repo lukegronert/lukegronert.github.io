@@ -12,7 +12,7 @@ export default function ProjectCard(props) {
                 <div className='project-technologies'>
                     {props.technologies.map((technology) => {
                         return (
-                            <Logo logo={technology} />
+                            <Logo logo={technology.image} alt={technology.alt} />
                         )
                     })}
                 </div>

@@ -17,10 +17,22 @@ export const projectList = [
         image: 'https://media.istockphoto.com/photos/innovation-and-new-ideas-lightbulb-concept-with-question-mark-picture-id1279690557?b=1&k=20&m=1279690557&s=170667a&w=0&h=BnH7EPIgwwpPyKMfeBJr87Ql900NFKjLYknrzvfi3Dw=',
         github: 'https://github.com/ClimbTaiwan/ClimbTaiwanWebsite',
         technologies: [
-            html5,
-            css,
-            javascript,
-            bootstrap
+            {
+                image: html5,
+                alt: 'HTML5 Logo'
+            },
+            {
+                image: css,
+                alt: 'CSS Logo'
+            },
+            {
+                image: javascript,
+                alt: 'JavaScript Logo'
+            },
+            {
+                image: bootstrap,
+                alt: 'Bootstrap logo'
+            }
         ],
         website: 'https://www.climbtaiwan.com'
     },
@@ -30,10 +42,22 @@ export const projectList = [
         image: 'https://media.istockphoto.com/photos/innovation-and-new-ideas-lightbulb-concept-with-question-mark-picture-id1279690557?b=1&k=20&m=1279690557&s=170667a&w=0&h=BnH7EPIgwwpPyKMfeBJr87Ql900NFKjLYknrzvfi3Dw=',
         github: 'https://github.com/lukegronert/PortfolioWebsite',
         technologies: [
-            html5,
-            css,
-            react,
-            semanticui
+            {
+                image: html5,
+                alt: 'HTML5 Logo'
+            },
+            {
+                image: css,
+                alt: 'CSS Logo'
+            },
+            {
+                image: react,
+                alt: 'React Logo'
+            },
+            {
+                image: semanticui,
+                alt: 'Semantic UI Logo'
+            }
         ],
         website: ''
     },
@@ -43,10 +67,22 @@ export const projectList = [
         image: 'https://media.istockphoto.com/photos/innovation-and-new-ideas-lightbulb-concept-with-question-mark-picture-id1279690557?b=1&k=20&m=1279690557&s=170667a&w=0&h=BnH7EPIgwwpPyKMfeBJr87Ql900NFKjLYknrzvfi3Dw=',
         github: 'https://github.com/lukegronert/TeacherDashboard',
         technologies: [
-            html5,
-            css,
-            react,
-            semanticui
+            {
+                image: html5,
+                alt: 'HTML5 Logo'
+            },
+            {
+                image: css,
+                alt: 'CSS Logo'
+            },
+            {
+                image: react,
+                alt: 'React Logo'
+            },
+            {
+                image: semanticui,
+                alt: 'Semantic UI Logo'
+            }
         ],
         website: 'https://lukegronert.github.io/TeacherDashboard/#/'
     }
