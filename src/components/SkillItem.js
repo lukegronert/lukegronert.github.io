@@ -1,12 +1,12 @@
 import React from 'react';
+import '../styles/skillItem.css';
 
 
 export default function SkillItem(props) {
-    console.log(props.logo)
     return (
-        <div>
-            {props.title}
-            {props.logo}
+        <div className='skill-item'>
+            <img src={props.logo} className='skill-item-logo' />
+            <p className='skill-item-title'>{props.title}</p>
         </div>
     )
 }

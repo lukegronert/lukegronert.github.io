@@ -1,0 +1,37 @@
+/* ============================================== */
+/* Mobile */
+/* ============================================== */
+
+.skills-headline {
+  text-align: center;
+}
+
+.skills-header {
+  font-weight: 600;
+  font-size: larger;
+}
+
+.skills-display {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.skills-container {
+  margin: auto auto;
+  width: 90%;
+}
+
+/* ============================================== */
+/* Desktop */
+/* ============================================== */
+@media screen and (min-width: 600px) {
+  .skills-display {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .skills-container {
+    width: 75%;
+  }
+}

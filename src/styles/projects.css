@@ -1,0 +1,22 @@
+/* ====================================== */
+/* Mobile */
+/* ====================================== */
+
+.project-display {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.projects-headline {
+  text-align: center;
+}
+
+/* ====================================== */
+/* Desktop */
+/* ====================================== */
+
+@media screen and (min-width: 600px) {
+  .project-display {
+    width: 75%;
+  }
+}

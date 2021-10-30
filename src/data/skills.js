@@ -1,4 +1,14 @@
-import html from '../images/html5.png';
+import html from '../images/html5.svg';
+import css from '../images/css.svg';
+import javascript from '../images/javascript.svg';
+import react from '../images/react.svg';
+import bootstrap from '../images/bootstrap.svg';
+import semanticui from '../images/semantic.svg';
+import gatsby from '../images/gatsby.svg';
+import npm from '../images/npm.svg';
+import redux from '../images/redux.svg';
+import nodejs from '../images/nodejs.svg';
+import graphql from '../images/graphql.svg';
 
 export const skillSet = [
     {
@@ -6,23 +16,23 @@ export const skillSet = [
         items: [
             {
                 title: 'HTML',
-                logo: ''
+                logo: html
             },
             {
                 title: 'CSS',
-                logo: ''
+                logo: css
             },
             {
                 title: 'Javascript',
-                logo: ''
+                logo: javascript
             },
             {
                 title: 'React',
-                logo: ''
+                logo: react
             },
             {
-                title: 'Boostrap',
-                logo: ''
+                title: 'Bootstrap',
+                logo: bootstrap
             }
         ]
     },
@@ -31,15 +41,15 @@ export const skillSet = [
         items: [
             {
                 title: 'Semantic UI',
-                logo: ''
+                logo: semanticui
             },
             {
                 title: 'Gatsby',
-                logo: ''
+                logo: gatsby
             },
             {
                 title: 'Reactstrap',
-                logo: ''
+                logo: npm
             }
         ]
     },
@@ -48,15 +58,15 @@ export const skillSet = [
         items: [
             {
                 title: 'Redux',
-                logo: ''
+                logo: redux
             },
             {
                 title: 'Node JS',
-                logo: ''
+                logo: nodejs
             },
             {
                 title: 'GraphQL',
-                logo: ''
+                logo: graphql
             }
         ]
     }
