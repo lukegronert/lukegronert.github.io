@@ -1,0 +1,47 @@
+/* =================================== */
+/* Profile bar at top of page */
+/* =================================== */
+
+.profile-bar-top {
+  position: absolute;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-icon {
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+}
+
+.profile-icon:hover {
+  border: 1px dotted black;
+  border-radius: 50px;
+}
+
+@media screen and (min-width: 600px) {
+  .profile-bar-top {
+    flex-direction: row;
+  }
+}
+
+/* =================================== */
+/* Profile bar at bottom of page */
+/* =================================== */
+
+.profile-bar-bottom {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 600px) {
+  .profile-bar-bottom {
+    position: absolute;
+    justify-content: flex-start;
+    margin-top: 0;
+  }
+}

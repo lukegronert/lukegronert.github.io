@@ -1,8 +1,9 @@
 .nav {
   float: left;
-  width: 100%;
+  width: 80%;
   position: absolute;
   top: 0;
+  right: 0;
 }
 
 .nav-list {

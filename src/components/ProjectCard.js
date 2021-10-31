@@ -19,8 +19,8 @@ export default function ProjectCard(props) {
             </div>
                 <p>{props.description}</p>
                 <div className='project-links'>
-                    <a href={props.github} className="ui button">View Github</a>
-                    <a href={props.website} className="ui button">View Website</a>
+                    <a href={props.github} target='_blank' className="ui button">View Github</a>
+                    <a href={props.website} target='_blank' className="ui button">View Website</a>
                 </div>
             </div>
         </div>
