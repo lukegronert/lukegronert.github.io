@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "homepage": "http://lukegronert.github.io/PortfolioWebsite",
+  "homepage": "https://lukegronert.github.io/PortfolioWebsite",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
