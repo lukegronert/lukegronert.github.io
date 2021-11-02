@@ -11,7 +11,7 @@ export default function Projects() {
                 {projectList.map((project) => {
                     return (
                         <ProjectCard title={project.title} description={project.description} image={project.image}
-                                     github={project.github} website={project.website} technologies={project.technologies} />
+                                     github={project.github} website={project.website} technologies={project.technologies} key={project.title} />
                     )
                 })}
             </div>

@@ -16,7 +16,7 @@ export default function Skills() {
                     {skillSet.filter((set) => set.level === 'proficient')
                         [0].items.map((skill) => {
                             return (
-                                <SkillItem title={skill.title} logo={skill.logo} />
+                                <SkillItem title={skill.title} logo={skill.logo} key={skill.title} />
                             )
                         })}
                 </div>
@@ -25,7 +25,7 @@ export default function Skills() {
                     {skillSet.filter((set) => set.level === 'familiar')
                         [0].items.map((skill) => {
                             return (
-                                <SkillItem title={skill.title} logo={skill.logo} />
+                                <SkillItem title={skill.title} logo={skill.logo} key={skill.title} />
                             )
                         })}
                 </div>
@@ -34,7 +34,7 @@ export default function Skills() {
                     {skillSet.filter((set) => set.level === 'exploring')
                         [0].items.map((skill) => {
                             return (
-                                <SkillItem title={skill.title} logo={skill.logo} />
+                                <SkillItem title={skill.title} logo={skill.logo} key={skill.title} />
                             )
                         })}
                 </div>

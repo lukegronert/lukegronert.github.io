@@ -3,6 +3,8 @@
   flex-direction: row;
   background: linear-gradient(145deg, #8a8a8a, #a4a4a4);
   box-shadow: 2px 2px 4px #979797, -2px -2px 4px #9b9b9b;
+  animation-name: pop-out;
+  animation-duration: 0.5s;
 }
 
 .skill-item-logo {
@@ -17,4 +19,13 @@
   width: 100%;
   color: white;
   font-weight: 900;
+}
+
+@keyframes pop-out {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

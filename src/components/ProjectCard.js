@@ -12,15 +12,15 @@ export default function ProjectCard(props) {
                 <div className='project-technologies'>
                     {props.technologies.map((technology) => {
                         return (
-                            <Logo logo={technology.image} alt={technology.alt} />
+                            <Logo logo={technology.image} alt={technology.alt} key={technology.alt} />
                         )
                     })}
                 </div>
             </div>
                 <p>{props.description}</p>
                 <div className='project-links'>
-                    <a href={props.github} target='_blank' className="ui button">View Github</a>
-                    <a href={props.website} target='_blank' className="ui button">View Website</a>
+                    <a href={props.github} target='_blank' rel="noreferrer" className="ui button">View Github</a>
+                    <a href={props.website} target='_blank' rel="noreferrer" className="ui button">View Website</a>
                 </div>
             </div>
         </div>
