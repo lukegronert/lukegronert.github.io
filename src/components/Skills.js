@@ -12,14 +12,14 @@ export default function Skills() {
             </div>
             <div className="skills-container">
                 <p className="skills-header">Proficient:</p>
-                <div className='skills-display'>
-                    {skillSet.filter((set) => set.level === 'proficient')
-                        [0].items.map((skill) => {
-                            return (
-                                <SkillItem title={skill.title} logo={skill.logo} key={skill.title} />
-                            )
-                        })}
-                </div>
+                    <div className='skills-display'>
+                        {skillSet.filter((set) => set.level === 'proficient')
+                            [0].items.map((skill) => {
+                                return (
+                                    <SkillItem title={skill.title} logo={skill.logo} key={skill.title} />
+                                )
+                            })}
+                    </div>
                 <p className="skills-header">Familiar:</p>
                 <div className='skills-display'>
                     {skillSet.filter((set) => set.level === 'familiar')
