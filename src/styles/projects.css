@@ -2,6 +2,11 @@
 /* Mobile */
 /* ====================================== */
 
+.projects-section {
+  min-height: 100vh;
+  padding: 10vh 0;
+}
+
 .project-display {
   width: 95%;
   margin: 0 auto;
@@ -9,6 +14,8 @@
 
 .projects-headline {
   text-align: center;
+  font-size: 3em;
+  padding-bottom: 5vh;
 }
 
 /* ====================================== */

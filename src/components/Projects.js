@@ -5,7 +5,7 @@ import '../styles/projects.css';
 
 export default function Projects() {
     return (
-        <section id="projects">
+        <section id="projects" className='projects-section'>
             <h2 className='projects-headline'>Projects</h2>
             <div className='project-display'>
                 {projectList.map((project) => {

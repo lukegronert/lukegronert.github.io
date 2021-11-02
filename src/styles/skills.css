@@ -1,3 +1,9 @@
+.skills-section {
+  background: #adb5bd;
+  min-height: 100vh;
+  padding: 10vh 0;
+}
+
 /* ============================================== */
 /* Mobile */
 /* ============================================== */
@@ -6,9 +12,19 @@
   text-align: center;
 }
 
+.skills-headline h2 {
+  font-size: 3em;
+}
+
+.skills-headline p {
+  font-size: 1.5em;
+}
+
 .skills-header {
   font-weight: 600;
-  font-size: larger;
+  font-size: 1.5em;
+  padding: 2vh 0;
+  margin: 0;
 }
 
 .skills-display {

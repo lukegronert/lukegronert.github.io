@@ -5,7 +5,7 @@ import { skillSet } from '../data/skills';
 
 export default function Skills() {
     return (
-        <section id="skills">
+        <section id="skills" className='skills-section'>
             <div className='skills-headline'>
                 <h2>Skills</h2>
                 <p>The languages, frameworks, and libraries that I have experience working with.</p>
