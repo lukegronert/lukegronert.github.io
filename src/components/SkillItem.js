@@ -1,15 +1,17 @@
 import React from 'react';
 import '../styles/skillItem.css';
-import ScrollAnimation from 'react-animate-on-scroll';
-
+import Slide from 'react-reveal/Slide';
+import Fade from 'react-reveal/Fade';
 
 export default function SkillItem(props) {
     return (
-        <ScrollAnimation animateIn='fadeIn' duration={5} >
-            <div className='skill-item'>
-                <img src={props.logo} className='skill-item-logo' />
-                <p className='skill-item-title'>{props.title}</p>
-            </div>
-        </ScrollAnimation>
+        <Fade>
+            <Slide bottom>
+                <div className='skill-item'>
+                    <img src={props.logo} className='skill-item-logo' />
+                    <p className='skill-item-title'>{props.title}</p>
+                </div>
+            </Slide>
+        </Fade>
     )
 }
