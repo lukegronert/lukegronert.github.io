@@ -2,11 +2,14 @@ import React from 'react';
 import {projectList} from '../data/projects';
 import ProjectCard from './ProjectCard';
 import '../styles/projects.css';
+import Fade from 'react-reveal/Fade'
 
 export default function Projects() {
     return (
         <section id="projects" className='projects-section'>
-            <h2 className='projects-headline'>Projects</h2>
+            <Fade>
+                <h2 className='projects-headline'>Projects</h2>
+            </Fade>
             <div className='project-display'>
                 {projectList.map((project) => {
                     return (

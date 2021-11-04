@@ -7,7 +7,7 @@ import Slide from 'react-reveal/Slide';
 export default function ProjectCard(props) {
     return (
         <Fade duration={2000}>
-            <Slide right duration={500}>
+            <Slide right duration={500} opposite={true}>
                 <div className='project-card'>
                     <img src={props.image} className='project-image' />
                     <div className='project-content'>

@@ -2,12 +2,15 @@ import React from 'react';
 import '../styles/skills.css';
 import SkillItem from './SkillItem';
 import { skillSet } from '../data/skills';
+import Fade from 'react-reveal/Fade';
 
 export default function Skills() {
     return (
         <section id="skills" className='skills-section'>
             <div className='skills-headline'>
-                <h2>Skills</h2>
+                <Fade>
+                    <h2>Skills</h2>
+                </Fade>
                 <p>The languages, frameworks, and libraries that I have experience working with.</p>
             </div>
             <div className="skills-container">
