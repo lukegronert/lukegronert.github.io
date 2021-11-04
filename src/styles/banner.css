@@ -12,5 +12,10 @@
 }
 
 .banner-content p {
-  font-size: 3vw;
+  font-size: 4vw;
+}
+
+.banner-content hr {
+  width: 50%;
+  margin-bottom: 5%;
 }
