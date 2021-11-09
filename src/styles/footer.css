@@ -9,6 +9,10 @@
   margin: 0;
 }
 
+.footer a, .footer a:visited {
+  color: black;
+}
+
 @media screen and (min-width: 600px) {
   .footer {
     text-align: right;

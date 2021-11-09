@@ -19,3 +19,7 @@
   width: 50%;
   margin-bottom: 5%;
 }
+
+.blur {
+  filter: blur(8px);
+}

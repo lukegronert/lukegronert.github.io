@@ -4,10 +4,38 @@
 
 .profile-bar-top {
   position: absolute;
-  width: 50%;
   display: flex;
   flex-direction: column;
+  -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
 }
+
+.slide-to-center {
+  transform: translate(42vw, 40vh) scale(3);
+  -webkit-transform: translate(42vw, 40vh) scale(3);
+  -moz-transform: translate(42vw, 40vh) scale(3);
+  -o-transform: translate(42vw, 40vh) scale(3);
+  -ms-transform: translate(42vw, 40vh) scale(3);
+  transform: translate(42vw, 40vh) scale(3);
+  z-index: 1;
+  filter: blur(0px);
+}
+
+
+@media screen and (width > 600px) {
+  .slide-to-center {
+      transform: translate(calc(50vw - 100px),calc(50vh - 10px)) scale(3);
+      -webkit-transform: translate(calc(50vw - 100px),calc(50vh - 10px)) scale(3);
+      -moz-transform: translate(calc(50vw - 100px),calc(50vh - 10px)) scale(3);
+      -o-transform: translate(calc(50vw - 100px),calc(50vh - 10px)) scale(3);
+      -ms-transform: translate(calc(50vw - 100px),calc(50vh - 10px)) scale(3);
+      transform: translate(calc(50vw - 100px),calc(50vh - 10px)) scale(3);
+      z-index: 1;
+  }
+}
+
 
 .profile-icon {
   height: 50px;

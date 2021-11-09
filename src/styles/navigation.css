@@ -16,7 +16,7 @@
   padding-right: 2%;
 }
 
-a, a:hover, a:visited {
+li a,li a:visited {
   color: black;
   font-size: 1.25rem;
 }

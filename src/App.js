@@ -11,7 +11,24 @@ import Footer from './components/Footer';
 function App() {
 
   const contactClick = () => {
-    console.log('hey')
+    const profileBar = document.querySelector('.profile-bar-top');
+    // Check if animation class has already been applied
+    if(!profileBar.classList.contains('slide-to-center')) {
+      const bannerSection = document.querySelector('.banner-section');
+      profileBar.classList.add('slide-to-center');
+      // Make Banner blurry
+      bannerSection.classList.add('blur');
+      // handler for eventListener (makes removing the event easier)
+      const reverseToCorner = () => {
+          profileBar.classList.remove('slide-to-center')
+          bannerSection.classList.remove('blur');
+          bannerSection.removeEventListener('click', reverseToCorner);
+      }
+      // Waits for animation to finish before allowing user to reverse it
+      setTimeout( () => {
+        bannerSection.addEventListener('click', reverseToCorner)
+      }, 1000)
+    }
   }
 
   return (
