@@ -9,10 +9,15 @@ import Projects from './components/Projects';
 import Footer from './components/Footer';
 
 function App() {
+
+  const contactClick = () => {
+    console.log('hey')
+  }
+
   return (
     <div>
       <ProfileBar position='top' />
-      <Navigation />
+      <Navigation contactClick={contactClick} />
       <Banner />
       <About />
       <Skills />
