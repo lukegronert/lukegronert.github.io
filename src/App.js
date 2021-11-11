@@ -8,7 +8,7 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
 
-function App() {
+function App() { 
 
   const contactClick = () => {
     const profileBar = document.querySelector('.profile-bar-top');

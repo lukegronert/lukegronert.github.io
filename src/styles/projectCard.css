@@ -1,15 +1,31 @@
 .project-card {
   display: flex;
-  margin: 2% 0;
+  height: 60vh;
+  flex-direction: column;
+  margin: 5% 0;
   position: relative;
   width: 100%;
   background: linear-gradient(145deg, #8a8a8a, #a4a4a4);
   box-shadow: 2px 2px 4px #979797, -2px -2px 4px #9b9b9b;
 }
 
+@media screen and (min-width: 600px) {
+  .project-card {
+    flex-direction: row;
+    margin: 2% 0;
+    max-height: 30vh;
+  }
+}
+
 .project-image {
-  max-width: 40%;
-  padding-right: 2%;
+  max-width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+  .project-image {
+    max-width: 40%;
+    padding-right: 2%;
+  }
 }
 
 .project-content {
@@ -46,7 +62,13 @@
   justify-content: space-evenly;
   position: absolute;
   bottom: 0;
-  width: 60%;
+  width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+  .project-links {
+    width: 60%;
+  }
 }
 
 .project-links a {

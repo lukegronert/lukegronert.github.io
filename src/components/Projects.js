@@ -4,7 +4,7 @@ import ProjectCard from './ProjectCard';
 import '../styles/projects.css';
 import Fade from 'react-reveal/Fade'
 
-export default function Projects() {
+export default function Projects(props) {
     return (
         <section id="projects" className='projects-section'>
             <Fade>
