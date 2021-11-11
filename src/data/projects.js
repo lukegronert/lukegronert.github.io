@@ -10,11 +10,14 @@ import redux from '../images/redux.svg';
 import nodejs from '../images/nodejs.svg';
 import graphql from '../images/graphql.svg';
 
+import climbTaiwan from '../images/climbTaiwan.png';
+import portfolio from '../images/portfolio.png'
+
 export const projectList = [
     {
         title: 'Climb Taiwan',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vestibulum est a tellus mattis, sit amet tincidunt libero convallis. Sed vitae tellus quam. Curabitur posuere pharetra erat a condimentum.',
-        image: 'https://media.istockphoto.com/photos/innovation-and-new-ideas-lightbulb-concept-with-question-mark-picture-id1279690557?b=1&k=20&m=1279690557&s=170667a&w=0&h=BnH7EPIgwwpPyKMfeBJr87Ql900NFKjLYknrzvfi3Dw=',
+        image: climbTaiwan,
         github: 'https://github.com/ClimbTaiwan/ClimbTaiwanWebsite',
         technologies: [
             {
@@ -39,7 +42,7 @@ export const projectList = [
     {
         title: 'Portfolio Website',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vestibulum est a tellus mattis, sit amet tincidunt libero convallis. Sed vitae tellus quam. Curabitur posuere pharetra erat a condimentum.',
-        image: 'https://media.istockphoto.com/photos/innovation-and-new-ideas-lightbulb-concept-with-question-mark-picture-id1279690557?b=1&k=20&m=1279690557&s=170667a&w=0&h=BnH7EPIgwwpPyKMfeBJr87Ql900NFKjLYknrzvfi3Dw=',
+        image: portfolio,
         github: 'https://github.com/lukegronert/PortfolioWebsite',
         technologies: [
             {

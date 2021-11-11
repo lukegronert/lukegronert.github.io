@@ -11,16 +11,16 @@ export default function ProjectCard(props) {
                 <div className='project-card'>
                     <img src={props.image} className='project-image' />
                     <div className='project-content'>
-                    <div className='project-header'>
-                        <p className='project-title'>{props.title}</p>
-                        <div className='project-technologies'>
-                            {props.technologies.map((technology) => {
-                                return (
-                                    <Logo logo={technology.image} alt={technology.alt} key={technology.alt} />
-                                )
-                            })}
+                        <div className='project-header'>
+                            <p className='project-title'>{props.title}</p>
+                            <div className='project-technologies'>
+                                {props.technologies.map((technology) => {
+                                    return (
+                                        <Logo logo={technology.image} alt={technology.alt} key={technology.alt} />
+                                    )
+                                })}
+                            </div>
                         </div>
-                    </div>
                         <p>{props.description}</p>
                         <div className='project-links'>
                             <a href={props.github} target='_blank' rel="noreferrer" className="ui button">View Github</a>
