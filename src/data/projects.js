@@ -11,7 +11,8 @@ import nodejs from '../images/nodejs.svg';
 import graphql from '../images/graphql.svg';
 
 import climbTaiwan from '../images/climbTaiwan.png';
-import portfolio from '../images/portfolio.png'
+import portfolio from '../images/portfolio.png';
+import weatherApp from '../images/weatherApp.png';
 
 export const projectList = [
     {
@@ -88,5 +89,26 @@ export const projectList = [
             }
         ],
         website: 'https://lukegronert.github.io/TeacherDashboard/#/'
+    },
+    {
+        title: 'Weather App',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vestibulum est a tellus mattis, sit amet tincidunt libero convallis. Sed vitae tellus quam. Curabitur posuere pharetra erat a condimentum.',
+        image: weatherApp,
+        github: 'https://github.com/lukegronert/WeatherApp',
+        technologies: [
+            {
+                image: html5,
+                alt: 'HTML5 Logo'
+            },
+            {
+                image: css,
+                alt: 'CSS Logo'
+            },
+            {
+                image: javascript,
+                alt: 'Javascript Logo'
+            }
+        ],
+        website: 'https://lukegronert.github.io/WeatherApp/'
     }
 ]
