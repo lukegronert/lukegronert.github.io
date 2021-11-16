@@ -13,9 +13,6 @@ export default function Footer() {
                 <a href="https://iconscout.com/icons/semantic" target="_blank" rel="noreferrer">Semantic UI</a>, &nbsp;
                 <a href="https://iconscout.com/icons/npm" target="_blank" rel="noreferrer">NPM</a>, &nbsp;
                 <a href="https://iconscout.com/icons/redux" target="_blank" rel="noreferrer">Redux</a>, &nbsp;
-                <a href="https://iconscout.com/icons/mail" target="_blank" rel="noreferrer">Mail</a>, &nbsp;
-                <a href="https://iconscout.com/icons/github" target="_blank" rel="noreferrer">Github</a>, &nbsp;
-                <a href="https://iconscout.com/icons/linkedin" target="_blank" rel="noreferrer">Linkedin</a>, &nbsp;
                 <a href="https://iconscout.com/icons/node-js" target="_blank" rel="noreferrer">Node JS</a> Icons by <a href="https://iconscout.com/contributors/icon-mafia">Icon Mafia</a> on <a href="https://iconscout.com">Iconscout</a>
             </p>
             <p className='attribution'>
