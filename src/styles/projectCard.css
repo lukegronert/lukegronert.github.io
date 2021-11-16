@@ -1,9 +1,6 @@
 .project-card {
   display: flex;
-  height: 60vh;
   flex-direction: column;
-  margin: 5% 0;
-  position: relative;
   width: 100%;
   background: linear-gradient(145deg, #8a8a8a, #a4a4a4);
   box-shadow: 2px 2px 4px #979797, -2px -2px 4px #9b9b9b;
@@ -13,23 +10,18 @@
   .project-card {
     flex-direction: row;
     margin: 2% 0;
-    height: 30vh;
   }
-}
-
-.project-image {
-  max-width: 100%;
 }
 
 @media screen and (min-width: 600px) {
   .project-image {
-    width: 35%;
-    padding-right: 2%;
+    width: 40%;
+    object-fit: cover;
+    flex-shrink: 0;
   }
 }
 
 .project-content {
-  margin-bottom: 20px;
   padding: 5%;
 }
 
@@ -75,15 +67,7 @@
 .project-links {
   display: flex;
   justify-content: space-evenly;
-  position: absolute;
-  bottom: 0;
   width: 100%;
-}
-
-@media screen and (min-width: 600px) {
-  .project-links {
-    width: 60%;
-  }
 }
 
 .project-links a {
