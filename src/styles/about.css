@@ -24,6 +24,7 @@
 
 .about-content img {
   max-width: 90%;
+  margin: 2% auto;
 }
 
 .about-description {
@@ -41,6 +42,7 @@
   .about-content img {
     object-fit: cover;
     max-width: 45%;
+    margin: 0;
   }
 
   .about-description {
