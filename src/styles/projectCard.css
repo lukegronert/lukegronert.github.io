@@ -3,7 +3,7 @@
   flex-direction: column;
   width: 100%;
   margin: 5% 0;
-  background: #15616d;
+  background: linear-gradient(145deg, #166875, #135762);
   box-shadow: 5px 5px 10px lightgrey, -5px -5px 10px lightgrey;
 }
 
