@@ -22,6 +22,10 @@
   font-weight: 400;
 }
 
+.about-content img {
+  max-width: 90%;
+}
+
 .about-description {
   max-width: 90%;
   margin: 0 auto;
