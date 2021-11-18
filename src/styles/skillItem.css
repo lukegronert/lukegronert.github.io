@@ -1,8 +1,9 @@
 .skill-item {
   display: flex;
   flex-direction: row;
-  background: linear-gradient(145deg, #8a8a8a, #a4a4a4);
-  box-shadow: 2px 2px 4px #979797, -2px -2px 4px #9b9b9b;
+  background: linear-gradient(145deg, #166875, #135762);
+  border-radius: 5px;
+  overflow: hidden;
 }
 
 .skill-item-logo {
@@ -15,7 +16,7 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  color: white;
+  color: #ffecd1;
   font-weight: 900;
   font-size: 1.25em;
 }

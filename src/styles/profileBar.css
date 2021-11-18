@@ -48,7 +48,8 @@
   display: flex;
   justify-content: center;
   margin-top: 20px;
-  background: #adb5bd;
+  background: #001524;
+  margin-bottom: 0;
 }
 
 @media screen and (min-width: 600px) {

@@ -3,8 +3,8 @@
   flex-direction: column;
   width: 100%;
   margin: 5% 0;
-  background: linear-gradient(145deg, #8a8a8a, #a4a4a4);
-  box-shadow: 2px 2px 4px #979797, -2px -2px 4px #9b9b9b;
+  background: #15616d;
+  box-shadow: 5px 5px 10px lightgrey, -5px -5px 10px lightgrey;
 }
 
 @media screen and (min-width: 600px) {
@@ -36,10 +36,6 @@
   }
 }
 
-.project-content p:nth-child(2) {
-  color: white;
-}
-
 .project-header {
   width: 100%;
   display: flex;
@@ -51,7 +47,6 @@
   .project-header {
     flex-direction: row;
     align-items: center;
-    margin-bottom: 20px;
   }
 }
 
@@ -60,7 +55,11 @@
   font-weight: 900;
   margin-right: 5px;
   margin-bottom: 0;
-  color: black;
+  color: #ffecd1;
+}
+
+.project-content p:nth-child(2) {
+  color: #ffecd1;
 }
 
 .project-technologies {
