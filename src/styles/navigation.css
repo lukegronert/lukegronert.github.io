@@ -13,10 +13,20 @@
 
 .nav-list li {
   display: inline;
-  padding-right: 2%;
   color: #ffecd1;
   font-weight: bold;
-  text-decoration: underline;
+  padding: 0 2%;
+}
+
+/* nth-child(-n+3) selects the first three lis */
+.nav-list li:nth-child(-n + 3) {
+  border-right: 2px solid #ffecd1;
+}
+
+@media screen and (min-width: 600px) {
+  .nav-list li:nth-child(-n + 3) {
+    border-right: 3px solid #ffecd1;
+  }
 }
 
 li a,
