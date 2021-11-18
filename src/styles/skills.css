@@ -44,11 +44,16 @@
 /* ============================================== */
 @media screen and (min-width: 600px) {
   .skills-display {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
   .skills-container {
     width: 75%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .skills-display {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
