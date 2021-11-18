@@ -14,13 +14,13 @@
 .nav-list li {
   display: inline;
   padding-right: 2%;
-  color: #15616d;
+  color: #ffecd1;
   font-weight: bold;
   text-decoration: underline;
 }
 
 li a,
 li a:visited {
-  color: #15616d;
+  color: #ffecd1;
   font-size: 1.25rem;
 }
