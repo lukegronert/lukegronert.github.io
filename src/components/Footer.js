@@ -5,8 +5,6 @@ export default function Footer() {
     return (
         <section id="footer" className='footer'>
             <p className='attribution'>
-                <a href="https://iconscout.com/icons/html" target="_blank" rel="noreferrer">Html</a>, &nbsp;
-                <a href="https://iconscout.com/icons/css3" target="_blank" rel="noreferrer">Css3</a>, &nbsp;
                 <a href="https://iconscout.com/icons/javascript" target="_blank" rel="noreferrer">Javascript</a>, &nbsp;
                 <a href="https://iconscout.com/icons/react" target="_blank" rel="noreferrer">React</a>, &nbsp;
                 <a href="https://iconscout.com/icons/bootstrap" target="_blank" rel="noreferrer">Bootstrap</a>, &nbsp;

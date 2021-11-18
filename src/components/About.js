@@ -2,6 +2,8 @@ import React from 'react';
 import '../styles/about.css';
 import Fade from 'react-reveal/Fade'
 
+import PersonalPhoto from '../images/PersonalPhoto.jpg';
+
 export default function About() {
     return (
         <section className="about-section" id="about">
@@ -9,8 +11,16 @@ export default function About() {
                 <h2>About</h2>
             </Fade>
             <div className="about-content">
+                <img src={PersonalPhoto} alt="Picture of a smiling man who looks like quite the expert developer" />
                 <article className="about-description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vestibulum est a tellus mattis, sit amet tincidunt libero convallis. Sed vitae tellus quam. Curabitur posuere pharetra erat a condimentum. Curabitur ullamcorper quam quis felis lacinia, at feugiat ipsum hendrerit. Cras sagittis purus vel iaculis efficitur. Nullam in suscipit augue. Quisque dui sapien, ultrices nec elementum quis, fermentum nec sem. Nam aliquam tincidunt elit, venenatis pulvinar purus tempor sit amet. Mauris malesuada lacus et nisl volutpat cursus. Phasellus lacinia, mi id laoreet pretium, nisl nisi euismod orci, ac tincidunt elit nisi id ex. Vivamus volutpat molestie felis, in malesuada est consequat et. Vestibulum sed mattis risus, nec congue erat. Fusce vitae consectetur augue. Vivamus aliquam non magna at dictum. Nulla facilisi. Curabitur rhoncus mauris in accumsan blandit.
+                Hey, I'm Luke and I live in Taipei, Taiwan. I am a front-end developer from the San Francisco Bay Area who graduated from 
+                San Francisco State University and graduated with a degree in International Business. After university, 
+                I moved abroad to teach English in Seoul, South Korea and Taipei, Taiwan. Near the end of my stay in Seoul, my 
+                off-and-on hobby of web development turned into a dedication to learn and improve to transition into a new career.
+                <br />
+                <br />
+                In my free time, I'm most likely reading, playing volleyball, playing video games, watching sports, finding new cafes, or 
+                just chatting with friends. 
                 </article>
             </div>
         </section>
