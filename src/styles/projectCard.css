@@ -65,14 +65,8 @@
 .project-technologies {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   width: 50%;
-}
-
-@media screen and (min-width: 600px) {
-  .project-technologies {
-    justify-content: flex-start;
-  }
 }
 
 .project-links {
