@@ -24,3 +24,7 @@ li a:visited {
   color: #ffecd1;
   font-size: 1.25rem;
 }
+
+li a:hover {
+  color: #ff7d00;
+}
