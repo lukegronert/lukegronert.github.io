@@ -13,6 +13,8 @@ export default function About() {
             <div className="about-content">
                 <img src={PersonalPhoto} alt="Picture of a smiling man who looks like quite the expert developer" />
                 <article className="about-description">
+                STILL WORKIN ON IT
+                <br />
                 Hey, I'm Luke and I live in Taipei, Taiwan. I am a front-end developer from the San Francisco Bay Area who graduated from 
                 San Francisco State University and graduated with a degree in International Business. After university, 
                 I moved abroad to teach English in Seoul, South Korea and Taipei, Taiwan. Near the end of my stay in Seoul, my 
