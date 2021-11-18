@@ -2,7 +2,6 @@
   position: absolute;
   text-align: center;
   width: 100%;
-  color: #15616d;
   background: #001524;
   margin: 0;
 }
@@ -14,7 +13,7 @@
 
 .footer a,
 .footer a:visited {
-  color: #15616d;
+  color: #ffecd1;
 }
 
 @media screen and (min-width: 600px) {
