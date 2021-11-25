@@ -33,7 +33,7 @@
   text-align: justify;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 900px) {
   .about-content {
     flex-direction: row;
     justify-content: space-evenly;
@@ -41,7 +41,7 @@
 
   .about-content img {
     object-fit: cover;
-    max-width: 45%;
+    width: 50%;
     max-height: 500px;
     margin: 0;
   }

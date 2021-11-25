@@ -17,7 +17,12 @@ export default function About() {
                     new things and solving problems.
                     <br />
                     <br />
-                    My goal is to continuously improve my skills as a developer, while providing quality 
+                    My goal is to continuously improve my skills as a developer, while using my passion for problem-solving to provide value 
+                    in the workplace.
+                    <br />
+                    <br />
+                    Currently, most of my work is done using React. While studying, my focus is on learning Redux and gaining a better 
+                    understanding of how to use Node.js.
                     <br />
                     <br />
                     In my free time, you can find me reading, playing volleyball, playing video games, watching sports, finding new cafes, or 
