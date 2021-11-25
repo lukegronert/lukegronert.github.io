@@ -24,7 +24,7 @@
 
 .about-content img {
   max-width: 90%;
-  margin: 2% auto;
+  margin: 0 auto 10% auto;
 }
 
 .about-description {
@@ -36,7 +36,7 @@
 @media screen and (min-width: 900px) {
   .about-content {
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
   }
 
   .about-content img {
