@@ -56,6 +56,7 @@
   margin-right: 5px;
   margin-bottom: 0;
   color: #ffecd1;
+  max-width: 50%;
 }
 
 .project-content p:nth-child(2) {
