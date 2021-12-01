@@ -17,7 +17,7 @@ import weatherApp from '../images/weatherApp.png';
 export const projectList = [
     {
         title: 'Climb Taiwan',
-        description: 'A website that provides information about various rock climbing areas and their respective routes around Taiwan. Created as a freelance project with vanilla Javascript and the Bootstrap framework for quick and easy design.',
+        description: 'A website that provides information about various rock climbing areas and their respective routes around Taiwan. Created as a freelance project with vanilla Javascript, as well as the Bootstrap framework for quick and easy design.',
         image: climbTaiwan,
         github: 'https://github.com/ClimbTaiwan/ClimbTaiwanWebsite',
         technologies: [
