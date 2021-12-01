@@ -32,6 +32,10 @@
   border-radius: 50px;
 }
 
+.github-icon {
+  filter: invert(100%);
+}
+
 @media screen and (min-width: 600px) {
   .profile-bar-top {
     flex-direction: row;
