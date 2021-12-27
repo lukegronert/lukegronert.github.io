@@ -1,6 +1,10 @@
 import React from 'react';
 import '../styles/about.css';
-import Fade from 'react-reveal/Fade'
+import Fade from 'react-reveal/Fade';
+import mail from '../images/mail.svg';
+import github from '../images/github.svg';
+import linkedin from '../images/linkedin.svg';
+import downArrow from '../images/down-arrow.svg';
 
 import PersonalPhoto from '../images/PersonalPhoto.jpg';
 
@@ -11,22 +15,33 @@ export default function About() {
                 <h2>About</h2>
             </Fade>
             <div className="about-content">
-                <img src={PersonalPhoto} alt="Picture of a smiling man who looks like quite the expert developer" />
+                <img className='personal-photo' src={PersonalPhoto} alt="Picture of a smiling man who looks like quite the expert developer" />
                 <article className="about-description">
-                    I am an American Front-End Web Developer currently living in Taipei, Taiwan. I enjoy learning 
-                    new things and solving problems.
-                    <br />
-                    <br />
-                    My goal is to continuously improve my skills as a developer, while using my passion for problem-solving to provide value 
-                    in the workplace.
-                    <br />
-                    <br />
-                    Currently, most of my work is done using React. While studying, my focus is on learning Redux and gaining a better 
-                    understanding of how to use Node.js.
-                    <br />
-                    <br />
-                    In my free time, you can find me reading, playing volleyball, playing video games, watching sports, finding new cafes, or 
-                    just chatting with friends. 
+                    <p>
+                        Hi, I'm Luke! I'm a Front-End Web Developer from California currently living in Taipei, Taiwan.
+                        <br />
+                        <br />
+                        When it comes to coding, I enjoy:
+                        <ul>
+                            <li>learning new concepts, like Redux and Node.js</li>
+                            <li>helping people find solutions</li>
+                            <li>providing value in the workplace</li>
+                        </ul>
+                        On my days off, you can find me:
+                        <ul>
+                        <li>reading (at the moment, American Gods)</li>
+                        <li>playing volleyball as a middle blocker</li>
+                        <li>hanging out at home playing video games, like Subnautica and Wild Rift</li>
+                        <li>watching sports</li>
+                        <li>finding new cafes</li>
+                        </ul>
+                        Want to get in touch? <img src={downArrow} className='small-icon' alt='Arrow pointing down' />
+                    </p>
+                    <div>
+                        <a href='https://github.com/lukegronert' target='_blank' rel="noreferrer"><img src={github} className='social-icon' alt='Github Profile Link' /></a>
+                        <a href='mailto:lukegronert@gmail.com' target='_blank' rel="noreferrer"><img src={mail} className='social-icon' alt='Email link' /></a>
+                        <a href='https://www.linkedin.com/in/lukegronert/' target='_blank' rel="noreferrer"><img src={linkedin} className='social-icon' alt='Linkedin Profile Link' /></a>
+                    </div>
                 </article>
             </div>
         </section>
