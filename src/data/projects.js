@@ -44,7 +44,7 @@ export const projectList = [
         title: 'Portfolio Website',
         description: 'My personal portfolio used to display my experience as a web developer. Created with a focus on mobile-first design.',
         image: portfolio,
-        github: 'https://github.com/lukegronert/PortfolioWebsite',
+        github: 'https://github.com/lukegronert/lukegronert.github.io',
         technologies: [
             {
                 image: html5,
