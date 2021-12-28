@@ -35,6 +35,7 @@
 .social-icon {
   height: 50px;
   width: 50px;
+  margin: 0 2%;
 }
 
 .small-icon {
@@ -42,7 +43,7 @@
 }
 
 li {
-  list-style: none;
+  list-style: square;
 }
 
 @media screen and (min-width: 900px) {

@@ -29,11 +29,11 @@ export default function About() {
                         </ul>
                         On my days off, you can find me:
                         <ul>
-                        <li>reading (at the moment, American Gods)</li>
-                        <li>playing volleyball as a middle blocker</li>
-                        <li>hanging out at home playing video games, like Subnautica and Wild Rift</li>
-                        <li>watching sports</li>
-                        <li>finding new cafes</li>
+                            <li>reading (at the moment, American Gods)</li>
+                            <li>playing volleyball as a middle blocker</li>
+                            <li>hanging out at home playing video games, like Subnautica and Wild Rift</li>
+                            <li>watching sports</li>
+                            <li>finding new cafes</li>
                         </ul>
                         Want to get in touch? <img src={downArrow} className='small-icon' alt='Arrow pointing down' />
                     </p>
