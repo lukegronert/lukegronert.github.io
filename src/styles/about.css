@@ -25,6 +25,7 @@
 .personal-photo {
   max-width: 90%;
   margin: 0 auto 10% auto;
+  box-shadow: 5px 5px 10px lightgrey, -5px -5px 10px lightgrey;
 }
 
 .about-description {
