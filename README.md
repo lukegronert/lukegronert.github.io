@@ -9,11 +9,7 @@
 
 ### 🏠 [Homepage](www.lukegronert.com)
 
-## Run tests
-
-```sh
-npm run test
-```
+> My personal portfolio was created with HTML, CSS, React, Semantic UI, and react-reveal.
 
 ## Author
 
