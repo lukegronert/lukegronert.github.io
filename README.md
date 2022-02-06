@@ -9,12 +9,6 @@
 
 ### 🏠 [Homepage](www.lukegronert.com)
 
-## Install
-
-```sh
-npm install
-```
-
 ## Run tests
 
 ```sh
