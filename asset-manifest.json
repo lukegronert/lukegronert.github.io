@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.434551e9.chunk.css",
-    "main.js": "/static/js/main.9a78b46e.chunk.js",
-    "main.js.map": "/static/js/main.9a78b46e.chunk.js.map",
+    "main.js": "/static/js/main.05d29052.chunk.js",
+    "main.js.map": "/static/js/main.05d29052.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f027f2bf.js",
     "runtime-main.js.map": "/static/js/runtime-main.f027f2bf.js.map",
     "static/css/2.7dce832d.chunk.css": "/static/css/2.7dce832d.chunk.css",
@@ -20,16 +20,19 @@
     "static/media/down-arrow.495d3a73.svg": "/static/media/down-arrow.495d3a73.svg",
     "static/media/gatsby.5bb274e2.svg": "/static/media/gatsby.5bb274e2.svg",
     "static/media/github.93758356.svg": "/static/media/github.93758356.svg",
+    "static/media/googlesheets.9cfe796e.svg": "/static/media/googlesheets.9cfe796e.svg",
     "static/media/graphql.b39f7233.svg": "/static/media/graphql.b39f7233.svg",
+    "static/media/gulp.3567a879.svg": "/static/media/gulp.3567a879.svg",
     "static/media/html5.84c6adac.svg": "/static/media/html5.84c6adac.svg",
     "static/media/javascript.de4c2594.svg": "/static/media/javascript.de4c2594.svg",
     "static/media/linkedin.642e2807.svg": "/static/media/linkedin.642e2807.svg",
     "static/media/mail.3694ddd0.svg": "/static/media/mail.3694ddd0.svg",
     "static/media/nodejs.7ca28bcc.svg": "/static/media/nodejs.7ca28bcc.svg",
     "static/media/npm.0bdcc5bd.svg": "/static/media/npm.0bdcc5bd.svg",
-    "static/media/portfolio.cf5b0342.png": "/static/media/portfolio.cf5b0342.png",
+    "static/media/portfolio.3f9db7c8.png": "/static/media/portfolio.3f9db7c8.png",
     "static/media/react.1520bd67.svg": "/static/media/react.1520bd67.svg",
     "static/media/redux.954b3f42.svg": "/static/media/redux.954b3f42.svg",
+    "static/media/sass.f5019806.svg": "/static/media/sass.f5019806.svg",
     "static/media/semantic.704eef96.svg": "/static/media/semantic.704eef96.svg",
     "static/media/weatherApp.1333f174.png": "/static/media/weatherApp.1333f174.png"
   },
@@ -38,6 +41,6 @@
     "static/css/2.7dce832d.chunk.css",
     "static/js/2.6a2fc2ff.chunk.js",
     "static/css/main.434551e9.chunk.css",
-    "static/js/main.9a78b46e.chunk.js"
+    "static/js/main.05d29052.chunk.js"
   ]
 }
