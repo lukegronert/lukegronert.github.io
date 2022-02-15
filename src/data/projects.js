@@ -4,6 +4,7 @@ import javascript from '../images/javascript.svg';
 import react from '../images/react.svg';
 import bootstrap from '../images/bootstrap.svg';
 import semanticui from '../images/semantic.svg';
+import googlesheets from '../images/googlesheets.svg';
 import gatsby from '../images/gatsby.svg';
 import npm from '../images/npm.svg';
 import redux from '../images/redux.svg';
@@ -42,7 +43,7 @@ export const projectList = [
     },
     {
         title: 'Portfolio Website',
-        description: 'My personal portfolio used to display my experience as a web developer. Created with a focus on mobile-first design.',
+        description: 'The website you are currently on. It is used to display my skills and projects, while also giving a little more information about who I am. Created with a focus on mobile-first design. Check out the github repository to see how it was made!',
         image: portfolio,
         github: 'https://github.com/lukegronert/lukegronert.github.io',
         technologies: [
@@ -63,13 +64,13 @@ export const projectList = [
                 alt: 'Semantic UI Logo'
             }
         ],
-        website: ''
+        website: 'www.lukegronert.com'
     },
     {
-        title: 'Teacher Dashboard',
-        description: 'An apllication developed to make my life as a teacher easier by giving me a simple way to keep track of "bonus points" in the classroom. Created as a project led approach to solidifying my understanding of React.',
-        image: 'https://media.istockphoto.com/photos/innovation-and-new-ideas-lightbulb-concept-with-question-mark-picture-id1279690557?b=1&k=20&m=1279690557&s=170667a&w=0&h=BnH7EPIgwwpPyKMfeBJr87Ql900NFKjLYknrzvfi3Dw=',
-        github: 'https://github.com/lukegronert/TeacherDashboard',
+        title: "Gronert's Horseshoe",
+        description: "An application created for my dad's annual poker tournament. This application uses the google-spreadsheet API to enter, store, and retrieve the results of the tournaments, while also displaying the overall results of all tournaments together.",
+        image: '',
+        github: 'https://github.com/lukegronert/poker-app',
         technologies: [
             {
                 image: html5,
@@ -86,29 +87,12 @@ export const projectList = [
             {
                 image: semanticui,
                 alt: 'Semantic UI Logo'
+            },
+            {
+                image: googlesheets,
+                alt: 'Google Spreadsheet Logo'
             }
         ],
-        website: 'https://lukegronert.github.io/TeacherDashboard/#/'
+        website: 'https://epic-goldstine-8b8c95.netlify.app/'
     },
-    {
-        title: 'Weather App',
-        description: 'An application that displays the current weather of cities across the world. Created to enhance understanding of DOM manipulation and the use of the fetch API. ',
-        image: weatherApp,
-        github: 'https://github.com/lukegronert/WeatherApp',
-        technologies: [
-            {
-                image: html5,
-                alt: 'HTML5 Logo'
-            },
-            {
-                image: css,
-                alt: 'CSS Logo'
-            },
-            {
-                image: javascript,
-                alt: 'Javascript Logo'
-            }
-        ],
-        website: 'https://lukegronert.github.io/WeatherApp/'
-    }
 ]

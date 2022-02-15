@@ -9,6 +9,8 @@ import npm from '../images/npm.svg';
 import redux from '../images/redux.svg';
 import nodejs from '../images/nodejs.svg';
 import graphql from '../images/graphql.svg';
+import sass from '../images/sass.svg';
+import gulp from '../images/gulp.svg';
 
 export const skillSet = [
     {
@@ -40,6 +42,10 @@ export const skillSet = [
         level: 'familiar',
         items: [
             {
+                title: 'SASS',
+                logo: sass
+            },
+            {
                 title: 'Semantic UI',
                 logo: semanticui
             },
@@ -67,6 +73,10 @@ export const skillSet = [
             {
                 title: 'GraphQL',
                 logo: graphql
+            },
+            {
+                title: 'Gulp',
+                logo: gulp
             }
         ]
     }
