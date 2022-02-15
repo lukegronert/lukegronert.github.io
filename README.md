@@ -7,19 +7,9 @@
 
 > This is my personal portfolio which is used to give more information about who I am, show the skills I have learned/am learning, provide different ways to contact me, and display the projects that I have completed.
 
-### 🏠 [Homepage](www.lukegronert.com)
+> My personal portfolio was created with HTML, CSS, React, Semantic UI, and react-reveal.
 
-## Install
-
-```sh
-npm install
-```
-
-## Run tests
-
-```sh
-npm run test
-```
+> View the website here www.lukegronert.com
 
 ## Author
 
