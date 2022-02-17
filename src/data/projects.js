@@ -14,6 +14,7 @@ import graphql from '../images/graphql.svg';
 import climbTaiwan from '../images/climbTaiwan.png';
 import portfolio from '../images/portfolio.png';
 import weatherApp from '../images/weatherApp.png';
+import gronertshorseshoe from '../images/GronertsHorseshoe.png';
 
 export const projectList = [
     {
@@ -69,7 +70,7 @@ export const projectList = [
     {
         title: "Gronert's Horseshoe",
         description: "An application created for my dad's annual poker tournament. This application uses the google-spreadsheet API to enter, store, and retrieve the results of the tournaments, while also displaying the overall results of all tournaments together.",
-        image: '',
+        image: gronertshorseshoe,
         github: 'https://github.com/lukegronert/poker-app',
         technologies: [
             {
