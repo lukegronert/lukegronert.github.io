@@ -18,7 +18,7 @@ export default function About() {
                 <img className='personal-photo' src={PersonalPhoto} alt="Picture of a smiling man who looks like quite the expert developer" />
                 <article className="about-description">
                     <p>
-                        Hi, I'm Luke &#8212; a front-end web developer from California currently living in Taipei, Taiwan.
+                        Hi, I'm Luke &#8212; a Software Engineer from California currently living in Taipei, Taiwan.
                         <br /><br />
                         I enjoy constantly learning and coming up with creative and logical solutions through coding.
                         <br /> <br />
