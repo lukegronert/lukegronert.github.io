@@ -16,7 +16,7 @@ export default function Banner() {
                 <Fade delay={1000}>
                     <Pulse delay={1000}>
                         <p>
-                            Front-End Web Developer
+                            Software Engineer
                         </p>
                     </Pulse>
 
