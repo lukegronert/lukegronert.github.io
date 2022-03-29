@@ -4,13 +4,15 @@ import javascript from '../images/javascript.svg';
 import react from '../images/react.svg';
 import bootstrap from '../images/bootstrap.svg';
 import semanticui from '../images/semantic.svg';
-import gatsby from '../images/gatsby.svg';
 import npm from '../images/npm.svg';
 import redux from '../images/redux.svg';
 import nodejs from '../images/nodejs.svg';
-import graphql from '../images/graphql.svg';
 import sass from '../images/sass.svg';
 import gulp from '../images/gulp.svg';
+import github from '../images/github.svg';
+import git from '../images/git.svg';
+import webpack from '../images/webpack.svg';
+import typescript from '../images/typescript.svg';
 
 export const skillSet = [
     {
@@ -35,6 +37,14 @@ export const skillSet = [
             {
                 title: 'Bootstrap',
                 logo: bootstrap
+            },
+            {
+                title: 'Semantic UI',
+                logo: semanticui
+            },
+            {
+                title: 'Github',
+                logo: github
             }
         ]
     },
@@ -46,17 +56,18 @@ export const skillSet = [
                 logo: sass
             },
             {
-                title: 'Semantic UI',
-                logo: semanticui
-            },
-            {
-                title: 'Gatsby',
-                logo: gatsby
-            },
-            {
-                title: 'Reactstrap',
+                title: 'npm',
                 logo: npm
+            },
+            {
+                title: 'Git',
+                logo: git
+            },
+            {
+                title: 'Webpack',
+                logo: webpack
             }
+
         ]
     },
     {
@@ -71,12 +82,12 @@ export const skillSet = [
                 logo: nodejs
             },
             {
-                title: 'GraphQL',
-                logo: graphql
-            },
-            {
                 title: 'Gulp',
                 logo: gulp
+            },
+            {
+                title: 'Typescript',
+                logo: typescript
             }
         ]
     }

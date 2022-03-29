@@ -5,15 +5,9 @@ import react from '../images/react.svg';
 import bootstrap from '../images/bootstrap.svg';
 import semanticui from '../images/semantic.svg';
 import googlesheets from '../images/googlesheets.svg';
-import gatsby from '../images/gatsby.svg';
-import npm from '../images/npm.svg';
-import redux from '../images/redux.svg';
-import nodejs from '../images/nodejs.svg';
-import graphql from '../images/graphql.svg';
 
 import climbTaiwan from '../images/climbTaiwan.png';
 import portfolio from '../images/portfolio.png';
-import weatherApp from '../images/weatherApp.png';
 import gronertshorseshoe from '../images/GronertsHorseshoe.png';
 
 export const projectList = [
