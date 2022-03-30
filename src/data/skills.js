@@ -13,6 +13,7 @@ import github from '../images/github.svg';
 import git from '../images/git.svg';
 import webpack from '../images/webpack.svg';
 import typescript from '../images/typescript.svg';
+import mongodb from '../images/mongodb.svg';
 
 export const skillSet = [
     {
@@ -80,6 +81,10 @@ export const skillSet = [
             {
                 title: 'Node JS',
                 logo: nodejs
+            },
+            {
+                title: 'MongoDB',
+                logo: mongodb
             },
             {
                 title: 'Gulp',
