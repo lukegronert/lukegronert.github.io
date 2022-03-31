@@ -47,19 +47,17 @@
 /* =================================== */
 
 .profile-bar-bottom {
-  position: relative;
   width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-top: 20px;
-  background: #001524;
   margin-bottom: 0;
 }
 
 @media screen and (min-width: 600px) {
   .profile-bar-bottom {
     position: absolute;
-    justify-content: flex-start;
     margin-top: 0;
   }
 }

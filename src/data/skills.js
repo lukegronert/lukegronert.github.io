@@ -14,6 +14,7 @@ import git from '../images/git.svg';
 import webpack from '../images/webpack.svg';
 import typescript from '../images/typescript.svg';
 import mongodb from '../images/mongodb.svg';
+import api from '../images/api.svg';
 
 export const skillSet = [
     {
@@ -46,6 +47,10 @@ export const skillSet = [
             {
                 title: 'Github',
                 logo: github
+            },
+            {
+                title: 'API',
+                logo: api
             }
         ]
     },
