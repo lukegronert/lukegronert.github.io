@@ -35,7 +35,7 @@ export const projectList = [
                 alt: 'Bootstrap logo'
             }
         ],
-        website: 'https://www.climbtaiwan.com'
+        website: 'https://climbtaiwan.com'
     },
     {
         title: 'Portfolio Website',
