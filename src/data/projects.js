@@ -8,7 +8,7 @@ import api from '../images/api.svg';
 
 import climbTaiwan from '../images/climbTaiwan.png';
 import portfolio from '../images/portfolio.png';
-import gronertshorseshoe from '../images/GronertsHorseshoe.png';
+import fremontPokerRoom from '../images/fremontPokerRoom.png';
 import flickPicker from '../images/flickPicker.png';
 
 export const projectList = [
@@ -63,9 +63,9 @@ export const projectList = [
         website: 'www.lukegronert.com'
     },
     {
-        title: "Gronert's Horseshoe",
-        description: "An application created for my dad's annual poker tournament. This application uses the google-spreadsheet API to enter, store, and retrieve the results of the tournaments, while also displaying the overall results of all tournaments together.",
-        image: gronertshorseshoe,
+        title: "Fremont Poker Room Data Tracker",
+        description: "An application created for a bi-annual poker tournament. This application uses the google-spreadsheet API to enter, store, and retrieve the results of the tournaments, while also displaying the overall results of all tournaments together.",
+        image: fremontPokerRoom,
         github: 'https://github.com/lukegronert/poker-app',
         technologies: [
             {
