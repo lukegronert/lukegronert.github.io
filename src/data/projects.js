@@ -60,7 +60,7 @@ export const projectList = [
                 alt: 'Semantic UI Logo'
             }
         ],
-        website: 'www.lukegronert.com'
+        website: '/'
     },
     {
         title: "Fremont Poker Room Data Tracker",
@@ -92,7 +92,7 @@ export const projectList = [
         website: 'https://epic-goldstine-8b8c95.netlify.app/'
     },
     {
-        title: 'Flick Picker',
+        title: 'Streaming Service Random Movie/Series Generator',
         description: 'An application used to generate a random series/movie from popular streaming services. This application uses the Movie of the Night Streaming Availability API found on RapidAPI to take in use preferences and return a movie/series, along with its details.',
         image: flickPicker,
         github: 'https://github.com/lukegronert/Flick-Picker',
