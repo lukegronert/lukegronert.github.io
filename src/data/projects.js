@@ -9,9 +9,37 @@ import api from '../images/api.svg';
 import climbTaiwan from '../images/climbTaiwan.png';
 import portfolio from '../images/portfolio.png';
 import fremontPokerRoom from '../images/fremontPokerRoom.png';
-import flickPicker from '../images/flickPicker.png';
 
 export const projectList = [
+    {
+        title: "Fremont Poker Room Data Tracker",
+        description: "An application created for a bi-annual poker tournament. This application uses the google-spreadsheet API to enter, store, and retrieve the results of the tournaments, while also displaying the overall results of all tournaments together.",
+        image: fremontPokerRoom,
+        github: 'https://github.com/lukegronert/poker-app',
+        technologies: [
+            {
+                image: html5,
+                alt: 'HTML5 Logo'
+            },
+            {
+                image: css,
+                alt: 'CSS Logo'
+            },
+            {
+                image: react,
+                alt: 'React Logo'
+            },
+            {
+                image: semanticui,
+                alt: 'Semantic UI Logo'
+            },
+            {
+                image: api,
+                alt: 'google-spreadsheet API'
+            }
+        ],
+        website: 'https://epic-goldstine-8b8c95.netlify.app/'
+    },
     {
         title: 'Climb Taiwan',
         description: 'A website that provides information about various rock climbing areas and their respective routes around Taiwan. Created as a freelance project with vanilla Javascript, as well as the Bootstrap framework for quick and easy design.',
@@ -61,63 +89,5 @@ export const projectList = [
             }
         ],
         website: '/'
-    },
-    {
-        title: "Fremont Poker Room Data Tracker",
-        description: "An application created for a bi-annual poker tournament. This application uses the google-spreadsheet API to enter, store, and retrieve the results of the tournaments, while also displaying the overall results of all tournaments together.",
-        image: fremontPokerRoom,
-        github: 'https://github.com/lukegronert/poker-app',
-        technologies: [
-            {
-                image: html5,
-                alt: 'HTML5 Logo'
-            },
-            {
-                image: css,
-                alt: 'CSS Logo'
-            },
-            {
-                image: react,
-                alt: 'React Logo'
-            },
-            {
-                image: semanticui,
-                alt: 'Semantic UI Logo'
-            },
-            {
-                image: api,
-                alt: 'google-spreadsheet API'
-            }
-        ],
-        website: 'https://epic-goldstine-8b8c95.netlify.app/'
-    },
-    {
-        title: 'Streaming Service Random Movie/Series Generator',
-        description: 'An application used to generate a random series/movie from popular streaming services. This application uses the Movie of the Night Streaming Availability API found on RapidAPI to take in use preferences and return a movie/series, along with its details.',
-        image: flickPicker,
-        github: 'https://github.com/lukegronert/Flick-Picker',
-        technologies: [
-            {
-                image: html5,
-                alt: 'HTML5 Logo'
-            },
-            {
-                image: css,
-                alt: 'CSS Logo'
-            },
-            {
-                image: javascript,
-                alt: 'JavaScript Logo'
-            },
-            {
-                image: react,
-                alt: 'React Logo'
-            },
-            {
-                image: api,
-                alt: 'Movie of the Night Streaming Availability API'
-            }
-        ],
-        website: 'https://www.lukegronert.com/Flick-Picker'
     },
 ]
