@@ -9,7 +9,7 @@ export default function ProjectCard(props) {
         <Fade duration={2000}>
             <Slide right duration={500} opposite={true}>
                 <div className='project-card'>
-                    <img src={props.image} className='project-image' />
+                    <img src={props.smallImage} srcSet={`${props.smallImage} 300w, ${props.image} 760w`} className='project-image' />
                     <div className='project-content'>
                         <div className='project-header'>
                             <p className='project-title'>{props.title}</p>
