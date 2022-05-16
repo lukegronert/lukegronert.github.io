@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.9082d055.chunk.css",
-    "main.js": "/static/js/main.42a5d306.chunk.js",
-    "main.js.map": "/static/js/main.42a5d306.chunk.js.map",
+    "main.js": "/static/js/main.9d0e7d5b.chunk.js",
+    "main.js.map": "/static/js/main.9d0e7d5b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f027f2bf.js",
     "runtime-main.js.map": "/static/js/runtime-main.f027f2bf.js.map",
     "static/css/2.7dce832d.chunk.css": "/static/css/2.7dce832d.chunk.css",
@@ -17,8 +17,10 @@
     "static/media/bootstrap.e2b47704.svg": "/static/media/bootstrap.e2b47704.svg",
     "static/media/semantic.min.css": "/static/media/outline-icons.ddae9b1b.woff",
     "static/media/climbTaiwan.53cf9d79.png": "/static/media/climbTaiwan.53cf9d79.png",
+    "static/media/climbTaiwanSmall.33a50a8d.png": "/static/media/climbTaiwanSmall.33a50a8d.png",
     "static/media/css.b58ecda1.svg": "/static/media/css.b58ecda1.svg",
     "static/media/down-arrow.495d3a73.svg": "/static/media/down-arrow.495d3a73.svg",
+    "static/media/fremontPokerRoomSmall.05dabdc3.png": "/static/media/fremontPokerRoomSmall.05dabdc3.png",
     "static/media/git.a25094ab.svg": "/static/media/git.a25094ab.svg",
     "static/media/github.d26742e6.svg": "/static/media/github.d26742e6.svg",
     "static/media/gulp.3567a879.svg": "/static/media/gulp.3567a879.svg",
@@ -30,6 +32,7 @@
     "static/media/nodejs.7ca28bcc.svg": "/static/media/nodejs.7ca28bcc.svg",
     "static/media/npm.0bdcc5bd.svg": "/static/media/npm.0bdcc5bd.svg",
     "static/media/portfolio.3f9db7c8.png": "/static/media/portfolio.3f9db7c8.png",
+    "static/media/portfolioSmall.455b2c38.png": "/static/media/portfolioSmall.455b2c38.png",
     "static/media/react.1520bd67.svg": "/static/media/react.1520bd67.svg",
     "static/media/redux.954b3f42.svg": "/static/media/redux.954b3f42.svg",
     "static/media/sass.659213a7.svg": "/static/media/sass.659213a7.svg",
@@ -42,6 +45,6 @@
     "static/css/2.7dce832d.chunk.css",
     "static/js/2.6a2fc2ff.chunk.js",
     "static/css/main.9082d055.chunk.css",
-    "static/js/main.42a5d306.chunk.js"
+    "static/js/main.9d0e7d5b.chunk.js"
   ]
 }
