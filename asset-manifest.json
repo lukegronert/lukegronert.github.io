@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.9082d055.chunk.css",
-    "main.js": "/static/js/main.93e949f1.chunk.js",
-    "main.js.map": "/static/js/main.93e949f1.chunk.js.map",
+    "main.js": "/static/js/main.42a5d306.chunk.js",
+    "main.js.map": "/static/js/main.42a5d306.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f027f2bf.js",
     "runtime-main.js.map": "/static/js/runtime-main.f027f2bf.js.map",
     "static/css/2.7dce832d.chunk.css": "/static/css/2.7dce832d.chunk.css",
@@ -19,7 +19,6 @@
     "static/media/climbTaiwan.53cf9d79.png": "/static/media/climbTaiwan.53cf9d79.png",
     "static/media/css.b58ecda1.svg": "/static/media/css.b58ecda1.svg",
     "static/media/down-arrow.495d3a73.svg": "/static/media/down-arrow.495d3a73.svg",
-    "static/media/flickPicker.093a0589.png": "/static/media/flickPicker.093a0589.png",
     "static/media/git.a25094ab.svg": "/static/media/git.a25094ab.svg",
     "static/media/github.d26742e6.svg": "/static/media/github.d26742e6.svg",
     "static/media/gulp.3567a879.svg": "/static/media/gulp.3567a879.svg",
@@ -43,6 +42,6 @@
     "static/css/2.7dce832d.chunk.css",
     "static/js/2.6a2fc2ff.chunk.js",
     "static/css/main.9082d055.chunk.css",
-    "static/js/main.93e949f1.chunk.js"
+    "static/js/main.42a5d306.chunk.js"
   ]
 }
