@@ -13,7 +13,7 @@ export default function Projects(props) {
             <div className='project-display'>
                 {projectList.map((project) => {
                     return (
-                        <ProjectCard title={project.title} description={project.description} image={project.image}
+                        <ProjectCard title={project.title} description={project.description} image={project.image} smallImage={project.smallImage}
                                      github={project.github} website={project.website} technologies={project.technologies} key={project.title} />
                     )
                 })}
