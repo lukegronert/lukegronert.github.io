@@ -15,6 +15,7 @@ import webpack from '../images/webpack.svg';
 import typescript from '../images/typescript.svg';
 import mongodb from '../images/mongodb.svg';
 import api from '../images/api.svg';
+import materialui from '../images/material-ui.svg'
 
 export const skillSet = [
     {
@@ -51,6 +52,10 @@ export const skillSet = [
             {
                 title: 'API',
                 logo: api
+            },
+            {
+                title: 'Material UI',
+                logo: materialui
             }
         ]
     },
