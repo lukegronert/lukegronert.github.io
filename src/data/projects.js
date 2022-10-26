@@ -48,7 +48,7 @@ export const projectList = [
         website: 'https://epic-goldstine-8b8c95.netlify.app/'
     },
     {
-        title: "Moxk Exchange",
+        title: "Mock Exchange",
         description: "An application created for users to test out cryptocurrency investment with no risk. It uses netlify-identity for user authentication, google-spreadsheet as a database, and Material UI for an easy, clean UI.",
         image: mockx,
         smallImage: mockxSmall,
