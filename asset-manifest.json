@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.99b43a09.css",
+    "main.css": "/static/css/main.20d1aae7.css",
     "main.js": "/static/js/main.5f1c937a.js",
     "static/media/brand-icons.svg": "/static/media/brand-icons.6729d29753e000c17489.svg",
     "static/media/climbTaiwan.png": "/static/media/climbTaiwan.53cf9d7917e5fa30639b.png",
@@ -53,11 +53,11 @@
     "static/media/mail.svg": "/static/media/mail.22f3739497b78c08bc895e92ba24db02.svg",
     "static/media/npm.svg": "/static/media/npm.0bdcc5bd9f907afad50533ddcab48fe9.svg",
     "static/media/down-arrow.svg": "/static/media/down-arrow.495d3a73e46402ba825f6b31f0241533.svg",
-    "main.99b43a09.css.map": "/static/css/main.99b43a09.css.map",
+    "main.20d1aae7.css.map": "/static/css/main.20d1aae7.css.map",
     "main.5f1c937a.js.map": "/static/js/main.5f1c937a.js.map"
   },
   "entrypoints": [
-    "static/css/main.99b43a09.css",
+    "static/css/main.20d1aae7.css",
     "static/js/main.5f1c937a.js"
   ]
 }
