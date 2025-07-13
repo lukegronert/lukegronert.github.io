@@ -7,7 +7,6 @@ import semanticui from "../images/semantic.svg";
 import api from "../images/api.svg";
 import materialui from "../images/material-ui.svg";
 import tailwind from "../images/tailwind.svg";
-import vercel from "../images/vercel.svg";
 import firebase from "../images/firebase.svg";
 import nextjs from "../images/nextjs.svg";
 import cypress from "../images/cypress.svg";
@@ -56,10 +55,6 @@ export const projectList = [
       {
         image: jest,
         alt: "Jest Logo",
-      },
-      {
-        image: vercel,
-        alt: "Vercel Logo",
       },
       {
         image: api,
