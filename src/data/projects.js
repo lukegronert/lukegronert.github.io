@@ -69,7 +69,7 @@ export const projectList = [
     website: "https://financial-app-etsh.vercel.app/",
   },
   {
-    title: "Fremont Poker Room Data Tracker",
+    title: "Fremont Poker Room",
     description:
       "An application created for a bi-annual poker tournament. This application uses the google-spreadsheet API to enter, store, and retrieve the results of the tournaments, while also displaying the overall results of all tournaments together.",
     image: fremontPokerRoom,
