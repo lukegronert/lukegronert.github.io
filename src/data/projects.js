@@ -6,6 +6,12 @@ import bootstrap from "../images/bootstrap.svg";
 import semanticui from "../images/semantic.svg";
 import api from "../images/api.svg";
 import materialui from "../images/material-ui.svg";
+import tailwind from "../images/tailwind.svg";
+import vercel from "../images/vercel.svg";
+import firebase from "../images/firebase.svg";
+import nextjs from "../images/nextjs.svg";
+import cypress from "../images/cypress.svg";
+import jest from "../images/jest.svg";
 
 import climbTaiwan from "../images/climbTaiwan.png";
 import portfolio from "../images/portfolio.png";
@@ -15,8 +21,53 @@ import climbTaiwanSmall from "../images/climbTaiwanSmall.png";
 import portfolioSmall from "../images/portfolioSmall.png";
 import fremontPokerRoomSmall from "../images/fremontPokerRoomSmall.png";
 import mockxSmall from "../images/mockxSmall.png";
+import financialApp from "../images/financialApp.png";
+import financialAppSmall from "../images/financialAppSmall.png";
 
 export const projectList = [
+  {
+    title: "Financial Tracker",
+    description:
+      "An application created to track financial instruments performance over various time periods. This application includes user authentication and data storage hrough Firebase, and API calls to Algolia for quick search functionality and AlphaVantage for instrument data. Includes basic end to end testng with Cypress and unit testing with Jest.",
+    image: financialApp,
+    smallImage: financialAppSmall,
+    github: "https://github.com/lukegronert/financial-app",
+    technologies: [
+      {
+        image: tailwind,
+        alt: "Tailwind Logo",
+      },
+      {
+        image: react,
+        alt: "React Logo",
+      },
+      {
+        image: firebase,
+        alt: "Firebase Logo",
+      },
+      {
+        image: nextjs,
+        alt: "Next JS Logo",
+      },
+      {
+        image: cypress,
+        alt: "Cypress Logo",
+      },
+      {
+        image: jest,
+        alt: "Jest Logo",
+      },
+      {
+        image: vercel,
+        alt: "Vercel Logo",
+      },
+      {
+        image: api,
+        alt: "Algolia and AlphaVantage API",
+      },
+    ],
+    website: "https://financial-app-etsh.vercel.app/",
+  },
   {
     title: "Fremont Poker Room Data Tracker",
     description:
