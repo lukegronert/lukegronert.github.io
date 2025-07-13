@@ -1,17 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.99b43a09.css",
-    "main.js": "/static/js/main.06d1a218.js",
+    "main.js": "/static/js/main.5f1c937a.js",
     "static/media/brand-icons.svg": "/static/media/brand-icons.6729d29753e000c17489.svg",
     "static/media/climbTaiwan.png": "/static/media/climbTaiwan.53cf9d7917e5fa30639b.png",
     "static/media/icons.svg": "/static/media/icons.62d9dae4e0040e81c980.svg",
     "static/media/PersonalPhoto.jpg": "/static/media/PersonalPhoto.3fd74c72245910d4ff68.jpg",
+    "static/media/financialApp.png": "/static/media/financialApp.1af5ec9c59c3962a860f.png",
     "static/media/climbTaiwanSmall.png": "/static/media/climbTaiwanSmall.33a50a8dcb40435a9f3a.png",
     "static/media/outline-icons.svg": "/static/media/outline-icons.9c4845b4b41ef40a22fa.svg",
     "static/media/icons.eot": "/static/media/icons.a01e3f2d6c83dc3aee17.eot",
     "static/media/icons.ttf": "/static/media/icons.c656b8caa454ed19b9a2.ttf",
     "static/media/brand-icons.eot": "/static/media/brand-icons.d68fa3e67dbb653a13ce.eot",
     "static/media/brand-icons.ttf": "/static/media/brand-icons.65a2fb6d9aaa164b41a0.ttf",
+    "static/media/financialAppSmall.png": "/static/media/financialAppSmall.ce05d58222c2dc25f4cd.png",
     "static/media/brand-icons.woff": "/static/media/brand-icons.cac87dc00c87a5d74711.woff",
     "static/media/brand-icons.woff2": "/static/media/brand-icons.278156e41e0ad908cf7f.woff2",
     "static/media/icons.woff": "/static/media/icons.425399f81e4ce7cbd967.woff",
@@ -24,13 +26,17 @@
     "static/media/outline-icons.woff2": "/static/media/outline-icons.687a4990ea22bb1a49d4.woff2",
     "static/media/fremontPokerRoomSmall.png": "/static/media/fremontPokerRoomSmall.05dabdc3b643c82b07b5.png",
     "static/media/portfolio.png": "/static/media/portfolio.3f9db7c85b164cee3ca0.png",
+    "static/media/jest.svg": "/static/media/jest.1ba09f96f00b224697295e3a7d351dfc.svg",
     "static/media/gulp.svg": "/static/media/gulp.3567a879d5ae09f5cb37047270bbdc41.svg",
     "static/media/api.svg": "/static/media/api.7cd6057b07c53c68b057aa2b46acc055.svg",
+    "static/media/nextjs.svg": "/static/media/nextjs.e3c042b9d9d809ebb67e9bc6e1e5f70d.svg",
     "static/media/react.svg": "/static/media/react.1520bd67b9711ed91ace46b169bc2491.svg",
     "static/media/redux.svg": "/static/media/redux.954b3f427d28b3746c04a3f317fcdcde.svg",
     "static/media/nodejs.svg": "/static/media/nodejs.7ca28bcc5b19ce40dfc23043cfb31f27.svg",
     "static/media/material-ui.svg": "/static/media/material-ui.da7fba49c4e54be0ace3c4556eada283.svg",
     "static/media/bootstrap.svg": "/static/media/bootstrap.e2b4770474d7278713f0b9f377993f9d.svg",
+    "static/media/firebase.svg": "/static/media/firebase.8f69a13150a1594d8fb73df74f12b548.svg",
+    "static/media/cypress.svg": "/static/media/cypress.f726bd183f41877e2bb24ffc9e0e7ce3.svg",
     "static/media/typescript.svg": "/static/media/typescript.51c750049c057cb5f4c535424eb20c4f.svg",
     "static/media/javascript.svg": "/static/media/javascript.de4c2594613e34b15666206bbede7327.svg",
     "static/media/semantic.svg": "/static/media/semantic.704eef969df231264f9fd0b4182a497b.svg",
@@ -39,6 +45,7 @@
     "static/media/webpack.svg": "/static/media/webpack.23fc1d3ac606d117e05a140e0de79806.svg",
     "static/media/github.svg": "/static/media/github.d26742e6133ee036fa54f67a158ac600.svg",
     "static/media/sass.svg": "/static/media/sass.659213a76485d0f6c9a19167593ae1d5.svg",
+    "static/media/tailwind.svg": "/static/media/tailwind.973c73e85d4daa24b257ba20298716c4.svg",
     "static/media/git.svg": "/static/media/git.a25094ab4b442dff5f62fd9d9786ca81.svg",
     "static/media/html5.svg": "/static/media/html5.42c02db687dba9b4821fbac5c65e5296.svg",
     "static/media/css.svg": "/static/media/css.b58ecda1590445920c664ac30dd974e0.svg",
@@ -47,10 +54,10 @@
     "static/media/npm.svg": "/static/media/npm.0bdcc5bd9f907afad50533ddcab48fe9.svg",
     "static/media/down-arrow.svg": "/static/media/down-arrow.495d3a73e46402ba825f6b31f0241533.svg",
     "main.99b43a09.css.map": "/static/css/main.99b43a09.css.map",
-    "main.06d1a218.js.map": "/static/js/main.06d1a218.js.map"
+    "main.5f1c937a.js.map": "/static/js/main.5f1c937a.js.map"
   },
   "entrypoints": [
     "static/css/main.99b43a09.css",
-    "static/js/main.06d1a218.js"
+    "static/js/main.5f1c937a.js"
   ]
 }
