@@ -27,7 +27,7 @@ export const projectList = [
   {
     title: "Financial Tracker",
     description:
-      "An application created to track financial instruments performance over various time periods. This application includes user authentication and data storage hrough Firebase, and API calls to Algolia for quick search functionality and AlphaVantage for instrument data. Includes basic end to end testng with Cypress and unit testing with Jest.",
+      "An application created to track financial instruments performance over various time periods. This application includes user authentication and data storage through Firebase, and API calls to Algolia for quick search functionality and AlphaVantage for instrument data. Includes basic end to end testing with Cypress and unit testing with Jest.",
     image: financialApp,
     smallImage: financialAppSmall,
     github: "https://github.com/lukegronert/financial-app",
